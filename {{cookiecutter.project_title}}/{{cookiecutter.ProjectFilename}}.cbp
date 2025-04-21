@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+    <Option title="{{cookiecutter.project_title}}" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="run">
+        <Option output="build/bin/" prefix_auto="1" extension_auto="1" />
+        <Option object_output="build/obj/" />
+			</Target>
+		</Build>
+		<UnitsGlob directory="src" wildcard="*.cpp" recursive="1" />
+	</Project>
+</CodeBlocks_project_file>
